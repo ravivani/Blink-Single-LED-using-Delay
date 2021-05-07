@@ -1,4 +1,4 @@
-This circuit description is ON & OFF STATE of LED .
+This circuit description is ON & OFF STATE of LED using delay.
 
 In this circuit it contains single LED.
 
