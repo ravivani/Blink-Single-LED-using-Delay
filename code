@@ -1,11 +1,9 @@
 /***
 -----------------------------------------------------------------
 
-This circuit description is ON & OFF STATE of LED without using delay.
+This circuit description is ON & OFF STATE of LED .
 
 In this circuit it contains single LED.
-
-Output of this circuit is in fraction of seconds LED will ON & OFF is so fast .
 
 Postive terminal of LED is a Anode , Negative terminal of LED is a cathode.
 
@@ -13,7 +11,7 @@ For LED there are two pins which are anode and cathode.
 
 Anode is connected to power , in between one resister is used to avoid the LED breaks ,it also control current flow.
 
-Resistor formule is R = V/I,for LED min 220 ohms is used.
+Resistor formule is R = V/I,for LED min 220 ohms is used. 
 
 Cathode is connected to ground.
 
@@ -45,7 +43,10 @@ void loop()
   
   // LED is ON when it is HIGH
   digitalWrite(led, HIGH);
+  delay(1000); // small delay.
+  
   // LED is OFF when it is LOW
   digitalWrite(led, LOW);
+  delay(1000); // small delay.
   
 }
